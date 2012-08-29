@@ -1,8 +1,8 @@
 <?php
 
 // change the following paths if necessary
-$yii=dirname(__FILE__).'/../frameworks/yii-1.1.12.b600af/framework/yii.php';
-$config=dirname(__FILE__).'/protected/config/main.php';
+$yii=dirname(__FILE__) . DIRECTORY_SEPARATOR  . '..' . DIRECTORY_SEPARATOR . 'frameworks' . DIRECTORY_SEPARATOR  . 'yii-1.1.12.b600af' . DIRECTORY_SEPARATOR  . 'framework' . DIRECTORY_SEPARATOR  . 'yii.php';
+$config=dirname(__FILE__) . DIRECTORY_SEPARATOR  . 'protected' . DIRECTORY_SEPARATOR  . 'config' . DIRECTORY_SEPARATOR  . 'main.php';
 
 // remove the following lines when in production mode
 defined('YII_DEBUG') or define('YII_DEBUG',true);
