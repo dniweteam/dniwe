@@ -29,19 +29,19 @@
                     array('itemOptions' => array(
                         'class' => 'divider-vertical',
                     )),
-                    array('label' => 'Home', 'url' => array('/site/index')),
+                    array('label' => 'Главная', 'url' => array('/site/index')),
                     array('itemOptions' => array(
                         'class' => 'divider-vertical',
                     )),
-                    array('label' => 'About', 'url' => array('/site/page', 'view' => 'about')),
+                    array('label' => 'О дно, ты мир!', 'url' => array('/site/page', 'view' => 'about')),
                     array('itemOptions' => array(
                         'class' => 'divider-vertical',
                     )),
-                    array('label' => 'Contact', 'url' => array('/site/contact')),
+                    array('label' => 'Обратная связь', 'url' => array('/site/contact')),
                     array('itemOptions' => array(
                         'class' => 'divider-vertical',
                     )),
-                    array('label' => 'Login', 'url' => array('/site/login'), 'visible' => Yii::app()->user->isGuest),
+                    array('label' => 'Добавиться в дно', 'url' => array('/site/login'), 'visible' => Yii::app()->user->isGuest),
                     array('itemOptions' => array(
                         'class' => 'divider-vertical',
                     )),
