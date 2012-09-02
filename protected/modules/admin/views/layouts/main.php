@@ -28,37 +28,19 @@
                     array('itemOptions' => array(
                         'class' => 'divider-vertical',
                     )),
-                    array('label' => 'Главная', 'url' => array('/site/index')),
+                    array('label' => 'Главная', 'url' => array('/admin/')),
                     array('itemOptions' => array(
                         'class' => 'divider-vertical',
                     )),
-                    array('label' => 'О дно, ты мир!', 'url' => array('/site/page', 'view' => 'about')),
+                    array('label' => 'О дно, ты мир!', 'url' => array('/content/')),
                     array('itemOptions' => array(
                         'class' => 'divider-vertical',
                     )),
-                    array('label' => 'Обратная связь', 'url' => array('/site/contact')),
-                    array('itemOptions' => array(
-                        'class' => 'divider-vertical',
-                    )),
-                    array('label' => 'Добавиться в дно', 'url' => array('/site/login'), 'visible' => Yii::app()->user->isGuest),
-                    array('itemOptions' => array(
-                        'class' => 'divider-vertical',
-                    )),
-                    array('label' => 'Logout (' . Yii::app()->user->name . ')', 'url' => array('/site/logout'), 'visible' => !Yii::app()->user->isGuest),
                 ),
             )); ?>
-
-                <form class="navbar-search pull-right">
-                    <input type="text" class="search-query" placeholder="Search">
-                </form>
             </div>
         </div>
     </div>
-    <?php if (isset($this->breadcrumbs)): ?>
-        <?php $this->widget('zii.widgets.CBreadcrumbs', array(
-        'links' => $this->breadcrumbs,
-    )); ?><!-- breadcrumbs -->
-    <?php endif?>
 
     <?php echo $content; ?>
 

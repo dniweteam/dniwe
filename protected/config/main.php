@@ -30,7 +30,10 @@ return array(
 		*/
         'gii'=>array(
             'class'=>'system.gii.GiiModule',
-            'password'=>'123456',
+            'password'=>'_123456',
+        ),
+        'admin'=>array(
+
         ),
 	),
 
@@ -40,30 +43,23 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
-		// uncomment the following to enable URLs in path-format
-		/*
 		'urlManager'=>array(
 			'urlFormat'=>'path',
 			'rules'=>array(
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+                '<module:\w+>/<controller:\w+>/<action:\w+>'=>'<module>/<controller>/<action>',
 			),
 		),
-		*/
 		'db'=>array(
-			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/dniwe.org.db',
+            'connectionString' => 'mysql:host=localhost;dbname=dniwe.org',
+            'emulatePrepare' => true,
+            'username' => 'root',
+            'password' => '',
+            'charset' => 'utf8',
+            'tablePrefix' => 'tbl_',
 		),
-		// uncomment the following to use a MySQL database
-		/*
-		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=testdrive',
-			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => '',
-			'charset' => 'utf8',
-		),
-		*/
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
 			'errorAction'=>'site/error',
