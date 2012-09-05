@@ -21,7 +21,7 @@
     <div class="navbar navbar-fixed-top navbar-inverse">
         <div class="navbar-inner">
             <div class="container">
-                <a class="brand" href="#"><?php echo CHtml::encode(Yii::app()->name); ?></a>
+                <a class="brand" onclick="$('#popup').show();" href="#"><?php echo CHtml::encode(Yii::app()->name); ?></a>
 
                 <?php $this->widget('zii.widgets.CMenu', array(
                 'htmlOptions' => array('class' => 'nav',),
@@ -66,10 +66,12 @@
     <div class="clear"></div>
 
 
-    <div id="footer">
-        &copy; <?php print_r("2012" . (date('Y') > 2012 ? " &ndash; " . date('Y') : "")); ?> Твоческое объединение &laquo;Дети днища, верные сыны&raquo;<br/>
-        <?php echo "";//Yii::powered(); ?>
+    <div id="footer" class="row show-grid oranienbaum">
+        <div class="span12">&copy; <?php print_r("2012" . (date('Y') > 2012 ? " &ndash; " . date('Y') : "")); ?> Твоческое объединение &laquo;Дети днища, верные сыны&raquo;<br/></div>
     </div>
+
+
+        <?php echo "";//Yii::powered(); ?>
     <!-- footer -->
 
 </div>
