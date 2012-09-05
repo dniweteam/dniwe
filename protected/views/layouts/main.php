@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
 
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/css-social-buttons/social-buttons.css"/>
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/fonts/stylesheet.css"/>
     <link rel="stylesheet" type="text/css"
           href="<?php echo Yii::app()->request->baseUrl; ?>/bootstrap/css/bootstrap.min.css"/>
@@ -66,7 +67,17 @@
 
 
     <div id="footer" class="row show-grid oranienbaum">
-        <div class="span12">&copy; <?php print_r("2012" . (date('Y') > 2012 ? " &ndash; " . date('Y') : "")); ?> Твоческое объединение &laquo;Дети днища, верные сыны&raquo;<br/></div>
+        <div class="span12">
+            <div class="row">
+                <div class="span12" style="text-align: center;">&copy; <?php print_r("2012" . (date('Y') > 2012 ? " &ndash; " . date('Y') : "")); ?> Твоческое объединение &laquo;Дети днища, верные сыны&raquo;<br/></div></div>
+            </div>
+            <div class="row">
+                <div class="span12" style="text-align: center;">
+                    <a class="sb gradient light-blue circle twitter" href="https://twitter.com/dniweorg" target="_blank"></a>
+                    <a class="sb circle facebook" href="#" target="_blank"></a>
+                    <a class="sb circle linkedin" href="#" target="_blank"></a>
+                </div>
+            </div>
     </div>
 
 
