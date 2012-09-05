@@ -20,7 +20,7 @@
     <div class="navbar navbar-fixed-top navbar-inverse">
         <div class="navbar-inner">
             <div class="container">
-                <a class="brand" onclick="$('#popup').show();" href="#"><?php echo CHtml::encode(Yii::app()->name); ?></a>
+                <a class="brand" href="#"><?php echo CHtml::encode(Yii::app()->name); ?></a>
 
                 <?php $this->widget('zii.widgets.CMenu', array(
                 'htmlOptions' => array('class' => 'nav',),
@@ -28,49 +28,29 @@
                     array('itemOptions' => array(
                         'class' => 'divider-vertical',
                     )),
-                    array('label' => 'Главная', 'url' => array('/site/index')),
+                    array('label' => 'Главная', 'url' => array('/admin/')),
                     array('itemOptions' => array(
                         'class' => 'divider-vertical',
                     )),
-                    array('label' => 'О дно, ты мир!', 'url' => array('/site/page', 'view' => 'about')),
+                    array('label' => 'О дно, ты мир!', 'url' => array('/content/')),
                     array('itemOptions' => array(
                         'class' => 'divider-vertical',
                     )),
-                    array('label' => 'Обратная связь', 'url' => array('/site/contact')),
-                    array('itemOptions' => array(
-                        'class' => 'divider-vertical',
-                    )),
-                    array('label' => 'Добавиться в дно', 'url' => array('/site/login'), 'visible' => Yii::app()->user->isGuest),
-                    array('itemOptions' => array(
-                        'class' => 'divider-vertical',
-                    )),
-                    array('label' => 'Logout (' . Yii::app()->user->name . ')', 'url' => array('/site/logout'), 'visible' => !Yii::app()->user->isGuest),
                 ),
             )); ?>
-
-                <form class="navbar-search pull-right">
-                    <input type="text" class="search-query" placeholder="Search">
-                </form>
             </div>
         </div>
     </div>
-    <?php if (isset($this->breadcrumbs)): ?>
-        <?php $this->widget('zii.widgets.CBreadcrumbs', array(
-        'links' => $this->breadcrumbs,
-    )); ?><!-- breadcrumbs -->
-    <?php endif?>
 
     <?php echo $content; ?>
 
     <div class="clear"></div>
 
 
-    <div id="footer" class="row show-grid oranienbaum">
-        <div class="span12">&copy; <?php print_r("2012" . (date('Y') > 2012 ? " &ndash; " . date('Y') : "")); ?> Твоческое объединение &laquo;Дети днища, верные сыны&raquo;<br/></div>
-    </div>
-
-
+    <div id="footer">
+        &copy; <?php print_r("2012" . (date('Y') > 2012 ? " &ndash; " . date('Y') : "")); ?> Твоческое объединение &laquo;Дети днища, верные сыны&raquo;<br/>
         <?php echo "";//Yii::powered(); ?>
+    </div>
     <!-- footer -->
 
 </div>
