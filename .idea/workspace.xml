@@ -2,147 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="994d79e7-537f-4617-9f8d-337bc8a25779" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1fa3646b/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1fa3646b/js/fancybox/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1fa3646b/js/fancybox/fancy_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1fa3646b/js/fancybox/fancy_loading.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1fa3646b/js/fancybox/fancy_nav_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1fa3646b/js/fancybox/fancy_nav_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1fa3646b/js/fancybox/fancy_shadow_e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1fa3646b/js/fancybox/fancy_shadow_n.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1fa3646b/js/fancybox/fancy_shadow_ne.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1fa3646b/js/fancybox/fancy_shadow_nw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1fa3646b/js/fancybox/fancy_shadow_s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1fa3646b/js/fancybox/fancy_shadow_se.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1fa3646b/js/fancybox/fancy_shadow_sw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1fa3646b/js/fancybox/fancy_shadow_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1fa3646b/js/fancybox/fancy_title_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1fa3646b/js/fancybox/fancy_title_main.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1fa3646b/js/fancybox/fancy_title_over.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1fa3646b/js/fancybox/fancy_title_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1fa3646b/js/fancybox/fancybox-x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1fa3646b/js/fancybox/fancybox-y.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1fa3646b/js/fancybox/fancybox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/c05b02c/gridview/bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/c05b02c/gridview/delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/c05b02c/gridview/down.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/c05b02c/gridview/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/c05b02c/gridview/up.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/c05b02c/gridview/update.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/c05b02c/gridview/view.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/c05b02c/listview/down.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/c05b02c/listview/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/c05b02c/listview/up.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/autocomplete/indicator.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jui/css/base/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jui/css/base/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jui/css/base/images/ui-bg_glass_55_fbf9ee_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jui/css/base/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jui/css/base/images/ui-bg_glass_75_dadada_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jui/css/base/images/ui-bg_glass_75_e6e6e6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jui/css/base/images/ui-bg_glass_95_fef1ec_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jui/css/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jui/css/base/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jui/css/base/images/ui-icons_2e83ff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jui/css/base/images/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jui/css/base/images/ui-icons_888888_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jui/css/base/images/ui-icons_cd0a0a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/rating/delete.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/rating/star.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/treeview/images/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/treeview/images/file.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/treeview/images/folder-closed.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/treeview/images/folder.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/treeview/images/minus.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/treeview/images/plus.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/treeview/images/treeview-black-line.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/treeview/images/treeview-black.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/treeview/images/treeview-default-line.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/treeview/images/treeview-default.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/treeview/images/treeview-famfamfam-line.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/treeview/images/treeview-famfamfam.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/treeview/images/treeview-gray-line.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/treeview/images/treeview-gray.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/treeview/images/treeview-red-line.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/treeview/images/treeview-red.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1fa3646b/css/ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1fa3646b/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1fa3646b/css/print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1fa3646b/css/screen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1fa3646b/js/fancybox/jquery.fancybox-1.3.1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1fa3646b/js/fancybox/jquery.fancybox-1.3.1.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1fa3646b/js/jquery.tooltip-1.2.6.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1fa3646b/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/57eacb99/pager.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/c05b02c/detailview/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/c05b02c/gridview/jquery.yiigridview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/c05b02c/gridview/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/c05b02c/listview/jquery.yiilistview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/c05b02c/listview/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/autocomplete/jquery.autocomplete.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jquery.ajaxqueue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jquery.autocomplete.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jquery.ba-bbq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jquery.bgiframe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jquery.cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jquery.history.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jquery.maskedinput.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jquery.maskedinput.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jquery.metadata.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jquery.multifile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jquery.rating.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jquery.treeview.async.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jquery.treeview.edit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jquery.treeview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jquery.yii.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jquery.yiiactiveform.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jquery.yiitab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jui/MIT-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jui/css/base/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jui/css/base/jquery.ui.accordion.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jui/css/base/jquery.ui.autocomplete.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jui/css/base/jquery.ui.button.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jui/css/base/jquery.ui.core.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jui/css/base/jquery.ui.datepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jui/css/base/jquery.ui.dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jui/css/base/jquery.ui.progressbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jui/css/base/jquery.ui.resizable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jui/css/base/jquery.ui.selectable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jui/css/base/jquery.ui.slider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jui/css/base/jquery.ui.tabs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jui/css/base/jquery.ui.theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jui/js/jquery-ui-i18n.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/jui/js/jquery-ui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/rating/jquery.rating.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/treeview/jquery.treeview.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cc91f98/yiitab/jquery.yiitab.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/controllers/UsersController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/data/dniwe.org.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/models/Users.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/AdminModule.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/DefaultController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/default/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/layouts/main.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/runtime/gii-1.1.12/CrudCode.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/runtime/gii-1.1.12/ModelCode.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/runtime/gii-1.1.12/ModuleCode.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/users/_form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/users/_search.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/users/_view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/users/admin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/users/create.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/users/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/users/update.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/users/view.php" />
-      <change type="DELETED" beforePath="Z:\home\local.dniwe.org\www\protected\data\schema.mysql.sql" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\local.dniwe.org\www\protected\data\schema.sqlite.sql" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\local.dniwe.org\www\protected\data\testdrive.db" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/config/main.php" afterPath="$PROJECT_DIR$/protected/config/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/application.log" afterPath="$PROJECT_DIR$/protected/runtime/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/layouts/main.php" afterPath="$PROJECT_DIR$/protected/views/layouts/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -167,7 +27,7 @@
       <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="18" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0">
+            <state line="13" column="0" selection-start="789" selection-end="789" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -176,7 +36,7 @@
       <file leaf-file-name="main.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/config/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="18" selection-start="949" selection-end="949" vertical-scroll-proportion="0.22130178">
+            <state line="36" column="10" selection-start="949" selection-end="949" vertical-scroll-proportion="0.031307552">
               <folding />
             </state>
           </provider>
@@ -241,10 +101,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-5" />
-    <option name="y" value="-5" />
-    <option name="width" value="1930" />
-    <option name="height" value="1050" />
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1368" />
+    <option name="height" value="746" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -369,8 +229,8 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="editor.preferences.appearance" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -414,14 +274,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="-5" width="1930" height="1050" extended-state="6" />
+    <frame x="-4" y="-4" width="1368" height="746" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14781217" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14992389" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -508,23 +368,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="18" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0">
+        <state line="13" column="0" selection-start="789" selection-end="789" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/config/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="18" selection-start="949" selection-end="949" vertical-scroll-proportion="0.22130178">
+        <state line="36" column="10" selection-start="949" selection-end="949" vertical-scroll-proportion="0.031307552">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="10" selection-start="1768" selection-end="1768" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="42" column="10" selection-start="1768" selection-end="1768" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/admin/AdminModule.php">
@@ -534,9 +392,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="28" selection-start="103" selection-end="108" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="28" selection-start="103" selection-end="108" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
