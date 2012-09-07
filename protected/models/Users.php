@@ -20,6 +20,16 @@ class Users extends CActiveRecord
 		return parent::model($className);
 	}
 
+
+    public function beforeSave()
+    {
+        if($this->isNewRecord)
+        {
+            $this->password = md5(md5($this->password) . $this->created);
+        }
+        return true;
+    }
+
 	/**
 	 * @return string the associated database table name
 	 */
@@ -38,9 +48,11 @@ class Users extends CActiveRecord
 		return array(
 			array('email, password', 'required'),
 			array('email, password', 'length', 'max'=>255),
+			array('email', 'email'),
+			array('email', 'unique'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, email, password', 'safe', 'on'=>'search'),
+			//array('id, email, password', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -62,8 +74,8 @@ class Users extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'email' => 'Email',
-			'password' => 'Password',
+			'email' => 'Мыло',
+			'password' => 'Пассворд',
 		);
 	}
 

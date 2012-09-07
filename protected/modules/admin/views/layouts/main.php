@@ -45,12 +45,6 @@
     <?php echo $content; ?>
 
     <div class="clear"></div>
-
-
-    <div id="footer">
-        &copy; <?php print_r("2012" . (date('Y') > 2012 ? " &ndash; " . date('Y') : "")); ?> Твоческое объединение &laquo;Дети днища, верные сыны&raquo;<br/>
-        <?php echo "";//Yii::powered(); ?>
-    </div>
     <!-- footer -->
 
 </div>

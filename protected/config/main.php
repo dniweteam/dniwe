@@ -43,15 +43,18 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
-		'urlManager'=>array(
-			'urlFormat'=>'path',
-			'rules'=>array(
-				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
-				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
-				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
-                '<module:\w+>/<controller:\w+>/<action:\w+>'=>'<module>/<controller>/<action>',
-			),
-		),
+        'urlManager'=>array(
+            'urlFormat'=>'path',
+            'showScriptName' => false,
+            'urlSuffix' => '.html',
+            'rules'=>array(
+                '/gii/' => array('/gii/default/index'),
+                '/admin' => array('/admin/default/index'),
+                '<_a>' => array('/site/<_a>'),
+                '<_c>/<_a>' => array('<_c>/<_a>'),
+                '<_m>/<_c>/<_a>' => array('<_m>/<_c>/<_a>'),
+            ),
+        ),
 		'db'=>array(
             'connectionString' => 'mysql:host=localhost;dbname=dniwe.org',
             'emulatePrepare' => true,

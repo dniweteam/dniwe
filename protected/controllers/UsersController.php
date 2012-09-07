@@ -28,7 +28,7 @@ class UsersController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index','view', 'registration'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -142,6 +142,31 @@ class UsersController extends Controller
 			'model'=>$model,
 		));
 	}
+
+
+    public function actionRegistration()
+    {
+        $model=new Users;
+
+        // Uncomment the following line if AJAX validation is needed
+        $this->performAjaxValidation($model);
+
+        if(isset($_POST['Users']))
+        {
+            $model->attributes=$_POST['Users'];
+            $model->created = time();
+            $model->role = 1;
+
+            if($model->save())
+            {
+                $this->redirect(array('site/index'));
+            }
+        }
+
+        $this->render('registration', array(
+            'model'=>$model,
+        ));
+    }
 
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.
