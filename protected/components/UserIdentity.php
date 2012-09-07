@@ -7,6 +7,17 @@
  */
 class UserIdentity extends CUserIdentity
 {
+    const ERROR_EMAIL_INVALID=1;
+
+    public $email;
+    public $password;
+    private $_id;
+
+    public function __construct($email,$password)
+    {
+        $this->email = $email;
+        $this->password = $password;
+    }
 	/**
 	 * Authenticates a user.
 	 * The example implementation makes sure if the username and password
@@ -17,17 +28,16 @@ class UserIdentity extends CUserIdentity
 	 */
 	public function authenticate()
 	{
-		$users=array(
-			// username => password
-			'demo'=>'demo',
-			'admin'=>'admin',
-		);
-		if(!isset($users[$this->username]))
-			$this->errorCode=self::ERROR_USERNAME_INVALID;
-		else if($users[$this->username]!==$this->password)
+        $model = Users::model()->find('email=?',array($this->email));
+
+		if($model === null)
+			$this->errorCode=self::ERROR_EMAIL_INVALID;
+		else if(!$model->validatePassword($this->password, $model->created))
 			$this->errorCode=self::ERROR_PASSWORD_INVALID;
-		else
-			$this->errorCode=self::ERROR_NONE;
+		else{
+            $this->_id = $model->id;
+            $this->errorCode=self::ERROR_NONE;
+        }
 		return !$this->errorCode;
 	}
 }

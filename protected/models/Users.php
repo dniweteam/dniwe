@@ -98,4 +98,16 @@ class Users extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+	
+	
+	public function validatePassword($password, $salt)
+    {
+        //var_dump($this->hashPassword($password,$salt) === $this->password);
+        return $this->hashPassword($password,$salt) === $this->password;
+    }
+ 
+    public function hashPassword($password, $salt)
+    {
+        return md5(md5($password) . $salt);
+    }
 }
