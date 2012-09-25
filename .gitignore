@@ -1,1 +1,9 @@
+*.swp
+.buildpath
+.project
+.settings
 .idea
+assets/*
+protected/runtime/*
+protected/data/*.db
+protected/tests/report/* 
